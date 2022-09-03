@@ -1,12 +1,16 @@
 .img-thumbnail{
     margin-left: 100px;
 }
+.namaxgelar span{
+    margin-top: 500px;
+}
 @media only screen and (max-width:576px) 
 {
     .img-thumbnail {
-        margin-left: 10000px;
+        margin-left: 1000px;
     }
 }
+
 @media only screen and (min-device-width: 601px) and (max-device-width: 768px)
 {
     .navbar li {
@@ -89,5 +93,11 @@
     .footer{
        top: 275%;
        position: absolute;
+    }
+}
+@media only screen and (min-device-width: 1367px) and (max-device-width: 1920px)
+{
+    .namaxgelar span{
+        margin-top: 500px;
     }
 }
